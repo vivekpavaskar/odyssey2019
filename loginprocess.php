@@ -18,8 +18,7 @@
       //$active = $row['active'];      
       $count = mysqli_num_rows($result);
       if($count == 1) {
-         $_SESSION["myusername"];
-         $_SESSION['login_user'] = $myusername;         
+         $_SESSION['email'] = $myusername;         
          header("location: dashboard.php");
       }
       else {
