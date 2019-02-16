@@ -4,31 +4,30 @@
 <title>Registration</title>
 </head>
 <body>
-<h1><center>Tommorow world</center></h1>
+<h1 style="text-align=center;">Tommorow world</h1>
 
-<form action="regprocess.php" method="post">
+<form action="regprocess.php" method="POST">
 <p>ID :</p>
-<input type="text" name="id">
+<input type="text" name="id" >
 <p>Fname :</p>
-<input type="text" name="fname">
+<input type="text" name="fname" placeholder="Enter First Name" required>
 <p>Lname :</p>
-<input type="text" name="lname">
+<input type="text" name="lname" placeholder="Enter Last Name" required>
 <p>Mobile number :</p>
-<input type="text" name="mobilenum">
+<input type="text" name="mobilenum" placeholder="Enter Mobile No" required>
 <p>USN :</p>
-<input type="text" name="usn">
+<input type="text" name="usn" placeholder="Enter USN" required>
 <p>Sem :</p>
-<input type="text" name="sem">
+<input type="text" name="sem" placeholder="Enter USN" required>
 <p>College name :</p>
-<input type="text" name="collegename">
+<input type="text" name="collegename" placeholder="Enter College Name" required>
 <p>Email Id :</p>
-<input type="text" name="emailid">
+<input type="text" name="email" placeholder="Enter Valid Email" required>
 <p>Password</p>
-<input type="text" name="password">
+<input type="text" name="password" placeholder="Enter Password" required>
 <br>
 <br>
-<input class="submit" name="dsubmit" type="submit" value="Send">
+<input class="submit" type="submit" value="Send">
 </form>
 </body>
-
 </html>
