@@ -24,7 +24,7 @@
       }
       else {
          $_SESSION["ERROR"]="Either your Username or Password is wrong";
-         echo $error;
+         header("location:login.php");
       }
    }
 ?>

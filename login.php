@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +10,9 @@
     <title>Login</title>
 </head>
 <body>
+<?php if(isset($_SESSION["ERROR"]))
+echo "Inavlid username or Password";
+?>
     <form action="loginprocess.php" method="POST">
     <input type="email" name="email" placeholder="Enter your email id" required>
     <input type="password" name="password" placeholder="Enter the password" required>
