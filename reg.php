@@ -4,7 +4,7 @@
 <title>Registration</title>
 </head>
 <body>
-<h1 style="text-align=center;">Tommorow world</h1>
+<h1>Tommorow world</h1>
 
 <form action="regprocess.php" method="POST">
 <p>ID :</p>
