@@ -21,8 +21,9 @@
          $_SESSION["myusername"];
          $_SESSION['login_user'] = $myusername;         
          header("location: dashboard.php");
-      }else {
-         $error = "Your Login Name or Password is invalid";
+      }
+      else {
+         $_SESSION["ERROR"]="Either your Username or Password is wrong";
          echo $error;
       }
    }
