@@ -13,6 +13,7 @@ $sem=$_POST["sem"];
 $collegename=$_POST["collegename"];
 $email=$_POST["email"];
 $password=$_POST["password"];
+
 $acctype="u";
 $ins=mysqli_query($db,"insert into users values($fname','$lname','$mobilenum','$usn','$sem','$collegename','$email','$password')");
 header("location:login.php");
