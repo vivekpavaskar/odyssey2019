@@ -170,7 +170,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="First Name" name="fname" type="text">
+                                            <input class="form-control" placeholder="First Name" name="fname" type="text" required>
                                         </div>
                                     </div>
 
@@ -180,7 +180,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Last Name" name="lname" type="text">
+                                            <input class="form-control" placeholder="Last Name" name="lname" type="text" required>
                                         </div>
                                     </div>
 
@@ -189,7 +189,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Mobile" name="mobilenum" type="text">
+                                            <input class="form-control" placeholder="Mobile" name="mobilenum" type="text" required>
                                         </div>
                                     </div>
 
@@ -199,7 +199,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="College" name="collegename" type="text">
+                                            <input class="form-control" placeholder="College" name="collegename" type="text" required>
                                         </div>
                                     </div>
 
@@ -210,7 +210,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Semester" name="sem" type="text">
+                                            <input class="form-control" placeholder="Semester" name="sem" type="text" required>
                                         </div>
                                     </div>
 
@@ -219,7 +219,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="USN" name="usn" type="text">
+                                            <input class="form-control" placeholder="USN" name="usn" type="text" required>
                                         </div>
                                     </div>
 
@@ -230,7 +230,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Email" type="email" name="email">
+                                            <input class="form-control" placeholder="Email" type="email" name="email" required>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -238,7 +238,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Password" type="password" name="password">
+                                            <input class="form-control" placeholder="Password" type="password" name="password" required>
                                         </div>
                                     </div>
 
@@ -247,7 +247,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Confirm Password" type="password" name="confpassword">
+                                            <input class="form-control" placeholder="Confirm Password" type="password" name="confpassword" required>
                                         </div>
                                     </div>
 

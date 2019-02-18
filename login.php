@@ -99,6 +99,13 @@ session_start();
                 <a href="../examples/register.html" class="dropdown-item">Register</a>
               </div>
             </li>
+            <li class="nav-item dropdown">
+              <a href="reg.php" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                <i class="ni ni-collection d-lg-none"></i>
+                <span class="nav-link-inner--text">Register</span>
+              </a>
+              
+            </li>
           </ul>
           <!-- <ul class="navbar-nav align-items-lg-center ml-lg-auto"> 
             <li class="nav-item">
@@ -158,7 +165,7 @@ session_start();
                       <div class="input-group-prepend">
                         <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                       </div>
-                      <input class="form-control" placeholder="Email" type="email" name="email">
+                      <input class="form-control" placeholder="Email" type="email" name="email" required>
                     </div>
                   </div>
                   <div class="form-group">
@@ -166,7 +173,7 @@ session_start();
                       <div class="input-group-prepend">
                         <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
                       </div>
-                      <input class="form-control" placeholder="Password" type="password" name="password">
+                      <input class="form-control" placeholder="Password" type="password" name="password" required>
                     </div>
                   </div>
                   
