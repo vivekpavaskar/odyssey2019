@@ -22,8 +22,11 @@
          header("location: dashboard.php");
       }
       else {
-         $_SESSION["ERROR"]="Either your Username or Password is wrong";
-         header("location:login.php");
+         echo "<script>alert('Invalid Username or Password');
+         window.location='login.php';
+         </script>";
+         //header("location:login.php");
+         
       }
    }
 ?>
