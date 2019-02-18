@@ -238,6 +238,7 @@ a:hover
     text-decoration: none; 
 
     color: #233dd2;
+
 }
 
 a:not([href]):not([tabindex])
@@ -2483,7 +2484,9 @@ select.form-control:focus::-ms-value
 select.form-control[size],
 select.form-control[multiple]
 {
+
     height: auto;
+
 }
 
 textarea.form-control
