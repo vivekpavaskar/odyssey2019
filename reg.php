@@ -42,7 +42,6 @@
                     e.preventDefault();
                     return;
                 }
-                alert("Both username and password are VALID!");
             };
 
             var myForm = document.getElementById("myForm");
