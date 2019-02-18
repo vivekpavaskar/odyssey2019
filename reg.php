@@ -18,6 +18,75 @@
     <link type="text/css" href="./css/argon.css" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="../assets/css/docs.min.css" rel="stylesheet">
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // JavaScript form validation
+
+            var checkPassword = function (str) {
+                var re = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
+                return re.test(str);
+            };
+
+            var checkForm = function (e) {
+                if (this.password.value != "" && this.password.value == this.confpassword.value) {
+                    if (!checkPassword(this.password.value)) {
+                        alert("The password you have entered is not valid!");
+                        this.password.focus();
+                        e.preventDefault();
+                        return;
+                    }
+                } else {
+                    alert("Error: Please check that you've entered and confirmed your password!");
+                    this.password.focus();
+                    e.preventDefault();
+                    return;
+                }
+                alert("Both username and password are VALID!");
+            };
+
+            var myForm = document.getElementById("myForm");
+            myForm.addEventListener("submit", checkForm, true);
+
+            // HTML5 form validation
+
+            var supports_input_validity = function () {
+                var i = document.createElement("input");
+                return "setCustomValidity" in i;
+            }
+
+            if (supports_input_validity()) {
+                var passwordInput = document.getElementsByClassName("form-control");
+                passwordInput.setCustomValidity(passwordInput.title);
+
+                var confpasswordInput = document.getElementsByClassName("form1-control");
+
+                // input key handlers
+
+                passwordInput.addEventListener("keyup", function (e) {
+                    this.setCustomValidity(this.validity.patternMismatch ? passwordInput.title : "");
+                    if (this.checkValidity()) {
+                        confpasswordInput.pattern = RegExp.escape(this.value);
+                        confpasswordInput.setCustomValidity(confpasswordInput.title);
+                    } else {
+                        confpasswordInput.pattern = this.pattern;
+                        confpasswordInput.setCustomValidity("");
+                    }
+                }, false);
+
+                confpasswordInput.addEventListener("keyup", function (e) {
+                    this.setCustomValidity(this.validity.patternMismatch ? confpasswordInput.title : "");
+                }, false);
+
+            }
+
+        }, false);
+        if(!RegExp.escape) {
+    RegExp.escape = function(s) {
+      return String(s).replace(/[\\^$*+?.()|[\]{}]/g, '\\$&');
+    };
+  }
+    </script>
 </head>
 
 <body>
@@ -164,13 +233,14 @@
                                 <div class="text-center text-muted mb-4">
                                     <p>Register Here</p>
                                 </div>
-                                <form role="form" action="regprocess.php" method="POST">
+                                <form id="myform" role="form" action="regprocess.php" method="POST" >
                                     <div class="form-group">
                                         <div class="input-group input-group-alternative mb-3">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="First Name" name="fname" type="text" required>
+                                            <input class="form-control" placeholder="First Name" name="fname" type="text"
+                                                required>
                                         </div>
                                     </div>
 
@@ -180,7 +250,8 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Last Name" name="lname" type="text" required>
+                                            <input class="form-control" placeholder="Last Name" name="lname" type="text"
+                                                required>
                                         </div>
                                     </div>
 
@@ -189,7 +260,8 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Mobile" name="mobilenum" type="text" required>
+                                            <input class="form-control" placeholder="Mobile" name="mobilenum" type="text"
+                                                required>
                                         </div>
                                     </div>
 
@@ -199,7 +271,8 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="College" name="collegename" type="text" required>
+                                            <input class="form-control" placeholder="College" name="collegename" type="text"
+                                                required>
                                         </div>
                                     </div>
 
@@ -210,7 +283,8 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Semester" name="sem" type="text" required>
+                                            <input class="form-control" placeholder="Semester" name="sem" type="text"
+                                                required>
                                         </div>
                                     </div>
 
@@ -219,7 +293,8 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="USN" name="usn" type="text" required>
+                                            <input class="form-control" placeholder="USN" name="usn" type="text"
+                                                required>
                                         </div>
                                     </div>
 
@@ -230,7 +305,8 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Email" type="email" name="email" required>
+                                            <input class="form-control" placeholder="Email" type="email" name="email"
+                                                required>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -238,7 +314,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Password" type="password" name="password" required>
+                                            <input class="form-control" placeholder="Password" type="password" name="password" title="Password must contain at least 6 characters, including UPPER/lowercase and numbers." required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
                                         </div>
                                     </div>
 
@@ -247,7 +323,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Confirm Password" type="password" name="confpassword" required>
+                                            <input class="form1-control" placeholder="Confirm Password" type="password" name="confpassword" title="Please enter the same Password as above." required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
                                         </div>
                                     </div>
 
