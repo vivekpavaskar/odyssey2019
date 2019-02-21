@@ -25,8 +25,6 @@
          echo "<script>alert('Invalid Username or Password');
          window.location='login.php';
          </script>";
-         //header("location:login.php");
-         
       }
    }
 ?>
