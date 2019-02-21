@@ -322,7 +322,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
                                             </div>
-                                            <input class="form1-control" placeholder="Confirm Password" type="password" name="confpassword" title="Please enter the same Password as above." required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
+                                            <input class="form-control form1-control" placeholder="Confirm Password" type="password" name="confpassword" title="Please enter the same Password as above." required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
                                         </div>
                                     </div>
 
