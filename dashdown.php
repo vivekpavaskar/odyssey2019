@@ -12,7 +12,7 @@ include "components/footer.php";
   <script src="vendor/chart.js/dist/Chart.min.js"></script>
   <script src="vendor/chart.js/dist/Chart.extension.js"></script>
   <!-- Argon JS -->
-  <script src="js/argon.js?v=1.0.0"></script>
+  <script src="js/argon-dash.js?v=1.0.0"></script>
 </body>
 
 </html>
