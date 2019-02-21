@@ -1,0 +1,18 @@
+      <!-- Footer -->
+      <?php
+include "components/footer.php";
+?>
+    </div>
+  </div>
+  <!-- Argon Scripts -->
+  <!-- Core -->
+  <script src="vendor/jquery/dist/jquery.min.js"></script>
+  <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Optional JS -->
+  <script src="vendor/chart.js/dist/Chart.min.js"></script>
+  <script src="vendor/chart.js/dist/Chart.extension.js"></script>
+  <!-- Argon JS -->
+  <script src="js/argon.js?v=1.0.0"></script>
+</body>
+
+</html>
