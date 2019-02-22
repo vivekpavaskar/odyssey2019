@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>Argon Design System - Free Design System for Bootstrap 4</title>
+  <title>Odyssey 2019</title>
   <!-- Favicon -->
   <link href="img/brand/favicon.png" rel="icon" type="image/png">
   <!-- Fonts -->
@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <header class="header-global">
+  <!-- <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div class="container">
         <a class="navbar-brand mr-lg-5" href="../index.html">
@@ -116,7 +116,8 @@
         </div>
       </div>
     </nav>
-  </header>
+  </header> -->
+  <?php include 'nav.php';?>
   <main>
     <div class="position-relative">
       <!-- shape Hero -->
@@ -184,26 +185,15 @@
               <div class="col-lg-12">
                 <div class="card card-lift--hover shadow border-0">
                   <div class="card-body py-5">
-                    <h6 class="text-primary text-uppercase"> <b>Event 2:</b></h6><br>
-                    <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;"> MA2 </span> <br>
-                     <span style="font-weight: 900;"> Event Name:</span>  <span style="font-weight: 900;"> Minute to Win it </span> <br>
-    <br>
-    <span style="font-weight: 900;"> Student Coordinator 1:</span> <span style="font-weight: 900;"> Rohit Takale </span>		
-    <br> <span style="font-weight: 900;"> Mobile Number:</span> <span style="font-weight: 600;"> 8660089070 </span> <br>
-<br> <span style="font-weight: 900;"> Student Coordinator 2:</span>  <span style="font-weight: 600;"> Devashree Shirodkar	 </span>
-<br><span style="font-weight: 900;"> Mobile Number:</span> <span style="font-weight: 600;"> 9823799726 </span>
-                    </p>
-    <p>
-     <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;"> 5 </span> <br>
-     <span style="font-weight: 900;"> Entry Fee:</span> <span style="font-weight: 600;"> 100/- </span> <br>
-     <span style="font-weight: 900;"> No. of participants / Team size (with conditions):</span> <span style="font-weight: 600;"> 2 </span> <br>
-     <span style="font-weight: 900;"> Timing and date of event:</span> <span style="font-weight: 600;"> 08/02/2019 at 10.30am </span> <br>
-     <span style="font-weight: 900;"> No. of prizes:</span> <span style="font-weight: 600;"> 2 </span> <br>
-                   <h1> Rules:</h1><br>
-                  1.  Time is the X-factor. <br>
-                  2.  All one-minute games. <br>
-                  3.  Rules according to the task will be explained on the spot.<br>
+                    
+                     <h6 class="text-primary text-uppercase"><b> Mechanical Engineering
 
+ 
+
+</b></h6><br>
+                     <p> <span style="font-weight: 900;"> Department Coordinator:</span> <span style="font-weight: 600;"> Prof. Vinayak Nannoji </span>
+                       <br>
+					 <!-- <p> <span style="font-weight: 900;"> No. of events:</span> <span style="font-weight: 600;"> 2 </span> -->
                     
                     
                   </div>
@@ -214,7 +204,7 @@
         </div>
       </div>
       </section>
-              <!-- <br><br><br><br><br><br>
+              <br><br><br><br><br><br>
               <section class="section section-lg pt-lg-0 mt--200">
                   <div class="container">
                     <div class="row justify-content-center">
@@ -229,13 +219,6 @@
                                    <br>
                                    <span style="font-weight: 900;">Event name:</span> <span style="font-weight: 600;">Royal Fiesta </span>
                                 <br>
-                                <br>
-                              
-                                <span style="font-weight: 900;">Student Coordinator 1:</span> <span style="font-weight: 600;"> Himanshu Porwal </span> 	<br> 
-                                <span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;"> 8050440150 </span><br>
-<br><span style="font-weight: 900;">Student Coordinator 2:</span> <span style="font-weight: 600;"> Utkarsh Pandit </span>	<br>
-<span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;"> 9591879950 </span></p>
-<p>
     <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;"> 3 </span> <br>
 <span style="font-weight: 900;">Entry Fee:</span> <span style="font-weight: 600;"> 100/- </span> <br>
 <span style="font-weight: 900;">No. of participants / Team size (with conditions):</span> <span style="font-weight: 600;"> 4 </span><br>
@@ -244,7 +227,7 @@
 
                           </p>
                                 
-                                <a href="#" class="btn btn-primary mt-4">Learn more</a>
+                                <a href="me1.php" class="btn btn-primary mt-4">Read more</a>
                               </div>
                             </div>
                           </div>
@@ -266,20 +249,13 @@
                                  <h6 class="text-primary text-uppercase"> <b>Event 2:</b></h6><br>
                                  <p> <span style="font-weight: 900;">Event Code: </span> <span style="font-weight: 600;"> ME2</span><br>
                                     <span style="font-weight: 900;">Event Name:</span> <span style="font-weight: 600;">Royal CrossFit </span><br>
-                 <br>
-                 <span style="font-weight: 900;">Student Coordinator 1:</span> <span style="font-weight: 600;"> Abhishek Kadolkar </span>		
-                 <br> <span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;"> 9449596445 </span> <br>
-<br><span style="font-weight: 900;">Student Coordinator 2:</span> <span style="font-weight: 600;"> Ninad Patil </span>	<br> 
-<span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;"> 8762279214 </span>
-                                 </p>
-								 <p>
                                     <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;"> 4 </span> <br>
                                     <span style="font-weight: 900;">Entry Fee:</span> <span style="font-weight: 600;"> 100/- </span> <br>
                                     <span style="font-weight: 900;">No. of participants / Team size (with conditions):</span> <span style="font-weight: 600;"> 1 </span><br>
                                     <span style="font-weight: 900;">Timing and date of event:</span> <span style="font-weight: 600;"> 10.00 am to 05:30 pm and 8th & 9th March </span><br>
 								 <span style="font-weight: 900;">No. of prizes:</span> <span style="font-weight: 600;"> 2 ( For Boys and Girls seoarately ) </span> <br>
 
-                                <a href="#" class="btn btn-primary mt-4">Learn more</a>
+                                <a href="me2.php" class="btn btn-primary mt-4">Read more</a>
                               </div>
                             </div>
                           </div>
@@ -288,8 +264,8 @@
                     </div>
                   </div>
                  </section>         
-               -->
-                <!-- </div>
+              
+                </div>
               </div>
             </div>
           </div>
@@ -321,7 +297,7 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
       <!-- SVG separator -->
       <div class="separator separator-bottom separator-skew zindex-100">
         <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -361,7 +337,7 @@
         <div class="col-md-6">
           <div class="copyright">
             &copy; 2019
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+            <a href="https://www.creative-tim.com" target="_blank">JCE Websit committee</a>.
           </div>
         </div>
         <div class="col-md-6">

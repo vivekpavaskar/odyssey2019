@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>Argon Design System - Free Design System for Bootstrap 4</title>
+  <title>Odyssey 2019</title>
   <!-- Favicon -->
   <link href="img/brand/favicon.png" rel="icon" type="image/png">
   <!-- Fonts -->
@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <header class="header-global">
+  <!-- <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div class="container">
         <a class="navbar-brand mr-lg-5" href="../index.html">
@@ -98,17 +98,16 @@
             </li>
           </ul>
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-  
+            
             <li class="nav-item d-none d-lg-block ml-lg-4">
               <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-outline-success">
-                
+              
                 <span class="nav-link-inner--text">Login</span>
               </a>
             </li>
             <li class="nav-item d-none d-lg-block ml-lg-4">
               <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-success">
-
-                <span class="nav-link-inner--text">register</span>
+              <span class="nav-link-inner--text">register</span>
               </a>
             </li>
           
@@ -116,7 +115,8 @@
         </div>
       </div>
     </nav>
-  </header>
+  </header> -->
+  <?php include 'nav.php';?>
   <main>
     <div class="position-relative">
       <!-- shape Hero -->
@@ -159,7 +159,7 @@
   <br>
   <br>
         </div>
-        
+      
       </section>
       <!-- 1st Hero Variation -->
     </div>
@@ -171,11 +171,6 @@
     <br>
   
     <br>
-    
-      </section>
-      <!-- 1st Hero Variation -->
-    </div>
-  
     <section class="section section-lg pt-lg-0 mt--200">
       <div class="container">
         <div class="row justify-content-center">
@@ -184,34 +179,10 @@
               <div class="col-lg-12">
                 <div class="card card-lift--hover shadow border-0">
                   <div class="card-body py-5">
-                    <h6 class="text-primary text-uppercase"> <b>Event 2:</b></h6><br>
-                    <p> <span style="font-weight: 900;">Event Code: </span> <span style="font-weight: 600;"> ME2</span><br>
-                       <span style="font-weight: 900;">Event Name:</span> <span style="font-weight: 600;">Royal CrossFit </span><br>
-    <br>
-    <span style="font-weight: 900;">Student Coordinator 1:</span> <span style="font-weight: 600;"> Abhishek Kadolkar </span>		
-    <br> <span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;"> 9449596445 </span> <br>
-<br><span style="font-weight: 900;">Student Coordinator 2:</span> <span style="font-weight: 600;"> Ninad Patil </span>	<br> 
-<span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;"> 8762279214 </span>
-                    </p>
-    <p>
-                       <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;"> 4 </span> <br>
-                       <span style="font-weight: 900;">Entry Fee:</span> <span style="font-weight: 600;"> 100/- </span> <br>
-                       <span style="font-weight: 900;">No. of participants / Team size (with conditions):</span> <span style="font-weight: 600;"> 1 </span><br>
-                       <span style="font-weight: 900;">Timing and date of event:</span> <span style="font-weight: 600;"> 10.00 am to 05:30 pm and 8th & 9th March </span><br>
-    <span style="font-weight: 900;">No. of prizes:</span> <span style="font-weight: 600;"> 2 ( For Boys and Girls seoarately ) </span> <br>
-                    <h1>Rules: </h1><br>
-                    <p>
-                    1.	Event consists of 4 stages.<br>
-                    2.	Every stage rules and regulations will be cleared and demonstrated on the spot. <br>
-                    3.	If any negligence is observed by the contestant and if it results in physical damage the complete responsibility lies on the contestant ,not on the organizers.<br>
-                    4.	Contestants should mandatorily be in sports attire and if any other aid are required to conduct the task the contestants may carry for themselves.<br>
-                    5.	All the events or rounds will be time bound  <br>
-                    6.	The contestants are clearly informed that no personal timers are allowed nor entertained under any circumstances.<br>
-                    7.	The time notified and recorded by the organizing team will be final and objections will not be entertained. <br>
-                    8.	If any contestant fails to complete a full circuit of a stage shall be disqualified for the further stages <br>
-                    9.	The contestants are hereby informed that reporting to the event at the mentioned time is mandatory, failing to do so shall be called disqualified.<br>
-                    10.	The competition will be having separate entries for girls and boys. Also, the challenge winners will be awarded separately.<br>
-                </p>
+                     <h6 class="text-primary text-uppercase"><b>Computer Science And Engineering</b></h6><br>
+                     <p><span class="font-weight-900">Department Coordinator :</span><span class="font-weight-600">Mahantesh Laddi</span>
+                       <br>
+                  </p>
                     
                   </div>
                 </div>
@@ -221,7 +192,7 @@
         </div>
       </div>
       </section>
-              <!-- <br><br><br><br><br><br>
+              <br><br><br><br><br><br>
               <section class="section section-lg pt-lg-0 mt--200">
                   <div class="container">
                     <div class="row justify-content-center">
@@ -230,28 +201,21 @@
                           <div class="col-lg-12">
                             <div class="card card-lift--hover shadow border-0">
                               <div class="card-body py-5">
-                                
-                                 <h6 class="text-primary text-uppercase"><b>Event 1:</b></h6></h6><br>
-                                 <p><span style="font-weight: 900;">Event code:</span> <span style="font-weight: 600;"> ME1 </span>
+                                 <h6 class="text-primary text-uppercase"><b>Event 1 :</b></h6></h6><br>
+                                 <p><b><span class="font-weight-900">Event code :</span></b>
                                    <br>
-                                   <span style="font-weight: 900;">Event name:</span> <span style="font-weight: 600;">Royal Fiesta </span>
+                                 <span class="font-weight-900">Event name :</span><span class="font-weight-600">&nbsp;&nbsp;Mystery Code</span>
                                 <br>
-                                <br>
-                              
-                                <span style="font-weight: 900;">Student Coordinator 1:</span> <span style="font-weight: 600;"> Himanshu Porwal </span> 	<br> 
-                                <span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;"> 8050440150 </span><br>
-<br><span style="font-weight: 900;">Student Coordinator 2:</span> <span style="font-weight: 600;"> Utkarsh Pandit </span>	<br>
-<span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;"> 9591879950 </span></p>
-<p>
-    <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;"> 3 </span> <br>
-<span style="font-weight: 900;">Entry Fee:</span> <span style="font-weight: 600;"> 100/- </span> <br>
-<span style="font-weight: 900;">No. of participants / Team size (with conditions):</span> <span style="font-weight: 600;"> 4 </span><br>
-<span style="font-weight: 900;">Timing and date of event:</span> <span style="font-weight: 600;"> 10.00 am to 05.30 pm and 8th & 9th March </span><br>
-<span style="font-weight: 900;">No. of prizes:</span> <span style="font-weight: 600;"> 2 </span><br>
-
-                          </p>
                                 
-                                <a href="#" class="btn btn-primary mt-4">Learn more</a>
+                                <!-- <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span class="font-weight-600"> Harshvardhan Patil
+                                </span>&nbsp; &nbsp; <br><b><span class="font-weight-900">Mobile number:</span> <span class="font-weight-600">8310336673</span>
+                            <br><br>
+                            <span class="font-weight-900">Student Coordinator 2:</span>&nbsp;&nbsp; <span class="font-weight-600">Prajwal Desai</span> &nbsp; &nbsp;<br> <span class="font-weight-900">Mobile number:</span>&nbsp;&nbsp;<span class="font-weight-900"> 8105621222</span> <br><br> -->
+                            <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600"></span><br>
+                            <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span class="font-weight-600">2</span><br>
+                              <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp; <span class="font-weight-600">11AM onwards on 8th and 9th March</span>
+                            </p><br>
+                                <a href="cs1.php" class="btn btn-primary mt-4">Read more</a>
                               </div>
                             </div>
                           </div>
@@ -269,24 +233,16 @@
                           <div class="col-lg-12">
                             <div class="card card-lift--hover shadow border-0">
                               <div class="card-body py-5">
-                              
-                                 <h6 class="text-primary text-uppercase"> <b>Event 2:</b></h6><br>
-                                 <p> <span style="font-weight: 900;">Event Code: </span> <span style="font-weight: 600;"> ME2</span><br>
-                                    <span style="font-weight: 900;">Event Name:</span> <span style="font-weight: 600;">Royal CrossFit </span><br>
-                 <br>
-                 <span style="font-weight: 900;">Student Coordinator 1:</span> <span style="font-weight: 600;"> Abhishek Kadolkar </span>		
-                 <br> <span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;"> 9449596445 </span> <br>
-<br><span style="font-weight: 900;">Student Coordinator 2:</span> <span style="font-weight: 600;"> Ninad Patil </span>	<br> 
-<span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;"> 8762279214 </span>
-                                 </p>
-								 <p>
-                                    <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;"> 4 </span> <br>
-                                    <span style="font-weight: 900;">Entry Fee:</span> <span style="font-weight: 600;"> 100/- </span> <br>
-                                    <span style="font-weight: 900;">No. of participants / Team size (with conditions):</span> <span style="font-weight: 600;"> 1 </span><br>
-                                    <span style="font-weight: 900;">Timing and date of event:</span> <span style="font-weight: 600;"> 10.00 am to 05:30 pm and 8th & 9th March </span><br>
-								 <span style="font-weight: 900;">No. of prizes:</span> <span style="font-weight: 600;"> 2 ( For Boys and Girls seoarately ) </span> <br>
-
-                                <a href="#" class="btn btn-primary mt-4">Learn more</a>
+                                 <h6 class="text-primary text-uppercase"><b>Event 2:</b></h6><br>
+                                 <b><span class="font-weight-900">Event code</b> :</span>
+                                    <br>
+                                  <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">Tesoro Hunt</span></b>
+                                 <br>
+                             <b><span class="font-weight-900">Entry Fee :</span><br>
+                              <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span class="font-weight-600">Maximum 4</span></b><br>
+                             <b><span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;<span class="font-weight-600"> 11AM onwards on 8th and 9th March</span><br>
+                                 </b>
+                                <a href="cs2.php" class="btn btn-primary mt-4">Read more</a>
                               </div>
                             </div>
                           </div>
@@ -295,15 +251,6 @@
                     </div>
                   </div>
                  </section>         
-               -->
-                <!-- </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-            
                 </div>
               </div>
             </div>
@@ -312,7 +259,6 @@
       </div>
     </section>
     <section class="section section-lg">
-
                 </li>
               </ul>
             </div>
@@ -321,14 +267,12 @@
         </div>
       </div>
     </section>
-
-              
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
       <!-- SVG separator -->
       <div class="separator separator-bottom separator-skew zindex-100">
         <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -336,19 +280,19 @@
         </svg>
       </div>
     </section>
-    
         </div>
     </section>
-  </main>
+    </section>
+    </main>
    <footer class="footer has-cards">
-    
-    <!-- <div class="container"> 
-      <div class="row row-grid align-items-center my-md">
+   
+    <div class="container"> 
+      <!-- <div class="row row-grid align-items-center my-md">
         <div class="col-lg-6">
           <h3 class="text-primary font-weight-light mb-2">Thank you for supporting us!</h3>
           <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
-        </div>
-        <div class="col-lg-6 text-lg-center btn-wrapper">
+        </div> -->
+        <!-- <div class="col-lg-6 text-lg-center btn-wrapper">
           <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
             <i class="fa fa-twitter"></i>
           </a>
@@ -368,24 +312,24 @@
         <div class="col-md-6">
           <div class="copyright">
             &copy; 2019
-            <a href="https://www.creative-tim.com" target="_blank">JCE Website committe</a>.
+            <a href="https://www.creative-tim.com" target="_blank">JCE website committee</a>.
           </div>
         </div>
         <div class="col-md-6">
           <ul class="nav nav-footer justify-content-end">
-            <li class="nav-item">
-              <a href="https://www.creative-tim.com" class="nav-link" target="_blank"></a>
-            </li>
+            <!-- <li class="nav-item">
+              <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
+            </li> -->
             <li class="nav-item">
               <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
             </li>
-            <li class="nav-item">
-              <a href="http://blog.creative-tim.com" class="nav-link" target="_blank"></a>
+            <!-- <li class="nav-item">
+              <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blog</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md" class="nav-link" target="_blank">MIT License</a>
             </li>
-            <li class="nav-item">
-              <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md" class="nav-link" target="_blank"></a>
-            </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>

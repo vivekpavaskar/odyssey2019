@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>Argon Design System - Free Design System for Bootstrap 4</title>
+  <title>Odyssey 2019</title>
   <!-- Favicon -->
   <link href="img/brand/favicon.png" rel="icon" type="image/png">
   <!-- Fonts -->
@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <header class="header-global">
+  <!-- <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div class="container">
         <a class="navbar-brand mr-lg-5" href="../index.html">
@@ -45,14 +45,11 @@
                 </button>
               </div>
             </div>
-          </div>
-        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
             <li class="nav-item dropdown">
               <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
                 <i class="ni ni-ui-04 d-lg-none"></i>
-                
-
                 <span class="nav-link-inner--text">Events</span>
               </a>
               <div class="dropdown-menu dropdown-menu-xl">
@@ -90,7 +87,7 @@
             <li class="nav-item dropdown">
               <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
                 <i class="ni ni-collection d-lg-none"></i>
-                <span class="nav-link-inner--text" >About us</span>
+                <span class="nav-link-inner--text">About us</span>
               </a>
               <div class="dropdown-menu">
                 <a href="examples/landing.html" class="dropdown-item">Landing</a>
@@ -101,22 +98,26 @@
             </li>
           </ul>
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-                <li class="nav-item d-none d-lg-block ml-lg-4">
+  
+            <li class="nav-item d-none d-lg-block ml-lg-4">
               <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-outline-success">
-                    <span class="nav-link-inner--text">Login</span>
+                
+                <span class="nav-link-inner--text">Login</span>
               </a>
             </li>
             <li class="nav-item d-none d-lg-block ml-lg-4">
               <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-success">
-                    <span class="nav-link-inner--text">register</span>
+
+                <span class="nav-link-inner--text">register</span>
               </a>
             </li>
-          ss
-          </ul> 
+          
+          </ul>
         </div>
       </div>
     </nav>
-  </header>
+  </header> -->
+  <?php include 'nav.php';?>
   <main>
     <div class="position-relative">
       <!-- shape Hero -->
@@ -159,7 +160,7 @@
   <br>
   <br>
         </div>
-      
+        
       </section>
       <!-- 1st Hero Variation -->
     </div>
@@ -171,6 +172,11 @@
     <br>
   
     <br>
+    
+      </section>
+      <!-- 1st Hero Variation -->
+    </div>
+  
     <section class="section section-lg pt-lg-0 mt--200">
       <div class="container">
         <div class="row justify-content-center">
@@ -179,55 +185,16 @@
               <div class="col-lg-12">
                 <div class="card card-lift--hover shadow border-0">
                   <div class="card-body py-5">
-                    <h6 class="text-primary text-uppercase"><b>Event 1 :</b></h6></h6><br>
-                    <p><b><span class="font-weight-900">Event code :</span></b>
-                      <br>
-                    <span class="font-weight-900">Event name :</span><span class="font-weight-600">&nbsp;&nbsp;Mystery Code</span>
-                   <br>
-                   <br>
-                   <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span class="font-weight-600"> Harshvardhan Patil
-                   </span>&nbsp; &nbsp; <br><b><span class="font-weight-900">Mobile number:</span> <span class="font-weight-600">8310336673</span>
-               <br><br>
-               <span class="font-weight-900">Student Coordinator 2:</span>&nbsp;&nbsp; <span class="font-weight-600">Prajwal Desai</span> &nbsp; &nbsp;<br> <span class="font-weight-900">Mobile number:</span>&nbsp;&nbsp;<span class="font-weight-900"> 8105621222</span> <br><br>
-               <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600"></span><br>
-               <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span class="font-weight-600"></span>2</span><br>
-                 <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp; <span class="font-weight-600">11AM onwards on 8th and 9th March</span>
-               </p><br>
+                    
+                     <h6 class="text-primary text-uppercase"><b> Masters of Computer Application
 
-                    <h1> Details of event:</h1>
-<h4>General Rules</h4> 
-1.No using mobile phones and other electronic devices.<br>
-2.Any kind of cheating will lead to disqualification.<br>
-3.Participants should report on time, late entry will not be entertained.<br>
-4.Decision taken by the co-ordinators / volunteers will be final.<br>
-5.Participants can only use c programming.<br>
-6.In case of more participants there will be quiz round.<br>
-<br>
-<br>
-<h5>Round 1:Yeh Karke Dikhao</h5>
-Time Duration: 45 mins<br>
-1.This is time based round.<br>
-2.The participants will be given set of questions which they have to solve within the given time.<br>
-3.Only the first teams to execute the round will be able to make it to the next round.<br>
-<br>
-<br>
+ 
 
-<h5>Round 2:Chakravyuha</h5>
-1.There will be a problem statement with syntax errors.<br>
-2.Each problem statement will end up with a hint for next statement.<br>
-3.The output  will be path and the key to the file, to next problem statement on debugging the code.<br>
-4.This round is time based(45 min.)<br>
-<br>
-<br>
-<h5>Round 3: Code Bhulaiya</h5>
-NO OF TEAMS :	4 teams
-DURATION :	1.5 hrs
-<br>
-1.All the four teams participating in this round will have to download the odyssey app.<br>
-2.To unlock this round you have to make through all the rounds.<br>
-Rules for this round will be told on spot.
-
-</p>
+</b></h6><br>
+                     <p> <span style="font-weight: 900;"> Department Coordinator:</span> <span style="font-weight: 600;"> Prof. Rajendra M. Jotawar </span>
+                       <br>
+					 <!-- <p> <span style="font-weight: 900;"> No. of events:</span> <span style="font-weight: 600;"> 2 </span> -->
+                    
                     
                   </div>
                 </div>
@@ -238,8 +205,74 @@ Rules for this round will be told on spot.
       </div>
       </section>
               <br><br><br><br><br><br>
-                   </section>         
+              <section class="section section-lg pt-lg-0 mt--200">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-12">
+                        <div class="row row-grid">
+                          <div class="col-lg-12">
+                            <div class="card card-lift--hover shadow border-0">
+                              <div class="card-body py-5">
+                                
+                                 <h6 class="text-primary text-uppercase"><b>Event 1:</b></h6></h6><br>
+                                 <p> <span style="font-weight: 900;"> Event code:</span> <span style="font-weight: 600;"> MA1 </span>
+                                   <br>
+                                   <span style="font-weight: 900;"> Event name:</span> <span style="font-weight: 600;"> Ultimate Techie </span><br>
+      <span style="font-weight: 900;"> No. of rounds:</span> <span style="font-weight: 600;"> 5 </span> <br>
+      <span style="font-weight: 900;"> Entry Fee:</span> <span style="font-weight: 600;"> 100/- </span><br>
+      <span style="font-weight: 900;"> No. of participants / Team size (with conditions):</span> <span style="font-weight: 600;"> 2 </span> <br>
+      <span style="font-weight: 900;"> Timing and date of event:</span> <span style="font-weight: 600;"> 08/02/2019 at 10.30am </span> <br>
+      <span style="font-weight: 900;"> No. of prizes:</span> <span style="font-weight: 600;"> 2 </span> <br>
+
+                          </p>
+                                
+                                <a href="mca1.php" class="btn btn-primary mt-4">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                 </section>       
+                 <br><br><br><br><br><br>
+              <section class="section section-lg pt-lg-0 mt--200">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-12">
+                        <div class="row row-grid">
+                          <div class="col-lg-12">
+                            <div class="card card-lift--hover shadow border-0">
+                              <div class="card-body py-5">
+                              
+                                 <h6 class="text-primary text-uppercase"> <b>Event 2:</b></h6><br>
+                                 <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;"> MA2 </span> <br>
+                                  <span style="font-weight: 900;"> Event Name:</span>  <span style="font-weight: 600;"> Minute to Win it </span><br>
+                  <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;"> 5 </span> <br>
+                  <span style="font-weight: 900;"> Entry Fee:</span> <span style="font-weight: 600;"> 100/- </span> <br>
+                  <span style="font-weight: 900;"> No. of participants / Team size (with conditions):</span> <span style="font-weight: 600;"> 2 </span> <br>
+                  <span style="font-weight: 900;"> Timing and date of event:</span> <span style="font-weight: 600;"> 08/02/2019 at 10.30am </span> <br>
+                  <span style="font-weight: 900;"> No. of prizes:</span> <span style="font-weight: 600;"> 2 </span> <br>
+
+                                <a href="mca2.php" class="btn btn-primary mt-4">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </section>         
+              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+            
+                </div>
               </div>
             </div>
           </div>
@@ -247,15 +280,18 @@ Rules for this round will be told on spot.
       </div>
     </section>
     <section class="section section-lg">
-                    </li>
+
+                </li>
               </ul>
             </div>
           </div>
         </div>
-            </div>
+        </div>
       </div>
     </section>
-                    </div>
+
+              
+                </div>
               </div>
             </div>
           </div>
@@ -268,18 +304,19 @@ Rules for this round will be told on spot.
         </svg>
       </div>
     </section>
-            </div>
-        </section>
-        </section>
-      </main>
+    
+        </div>
+    </section>
+  </main>
    <footer class="footer has-cards">
-       <div class="container"> 
+    
+    <div class="container"> 
       <!-- <div class="row row-grid align-items-center my-md">
         <div class="col-lg-6">
           <h3 class="text-primary font-weight-light mb-2">Thank you for supporting us!</h3>
           <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
-        </div> -->
-        <!-- <div class="col-lg-6 text-lg-center btn-wrapper">
+        </div>
+        <div class="col-lg-6 text-lg-center btn-wrapper">
           <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
             <i class="fa fa-twitter"></i>
           </a>
@@ -299,23 +336,23 @@ Rules for this round will be told on spot.
         <div class="col-md-6">
           <div class="copyright">
             &copy; 2019
-            <a href="https://www.creative-tim.com" target="_blank">JCE Website Committee</a>.
+            <a href="https://www.creative-tim.com" target="_blank">JCE Website committee</a>.
           </div>
         </div>
         <div class="col-md-6">
           <ul class="nav nav-footer justify-content-end">
-            <!-- <li class="nav-item">
-              <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
-            </li> -->
+            <li class="nav-item">
+              <a href="https://www.creative-tim.com" class="nav-link" target="_blank"></a>
+            </li>
             <li class="nav-item">
               <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
             </li>
-            <!-- <li class="nav-item">
-              <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blog</a>
-            </li> -->
-            <!-- <li class="nav-item">
-              <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md" class="nav-link" target="_blank">MIT License</a>
-            </li> -->
+            <li class="nav-item">
+              <a href="http://blog.creative-tim.com" class="nav-link" target="_blank"></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md" class="nav-link" target="_blank"></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -326,7 +363,7 @@ Rules for this round will be told on spot.
   <script src="vendor/popper/popper.min.js"></script>
   <script src="vendor/bootstrap/bootstrap.min.js"></script>
   <script src="vendor/headroom/headroom.min.js"></script>
-  <!-- Argon JS - ->
+  <!-- Argon JS -->
   <script src="js/argon.js?v=1.0.1"></script>
 </body>
 
