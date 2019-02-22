@@ -95,7 +95,7 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="coordinator.php">
-              <i class="ni ni-tv-2 text-primary"></i> Dashboard
+              <i class="ni ni-tv-2 text-primary"></i> Announcements
             </a>
           </li>
           <li class="nav-item">
