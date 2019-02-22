@@ -94,11 +94,11 @@
         <!-- Navigation -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="./index.html">
+            <a class="nav-link" href="/coordinator.php">
               <i class="ni ni-tv-2 text-primary"></i> Dashboard
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="./examples/icons.html">
               <i class="ni ni-planet text-blue"></i> Icons
             </a>
@@ -127,13 +127,13 @@
             <a class="nav-link" href="./examples/register.html">
               <i class="ni ni-circle-08 text-pink"></i> Register
             </a>
-          </li>
-        </ul>
-        <!-- Divider -->
-        <hr class="my-3">
-        <!-- Heading -->
+          </li> -->
+        <!-- </ul> -->
+        
+        <!-- <hr class="my-3">
+        
         <h6 class="navbar-heading text-muted">Documentation</h6>
-        <!-- Navigation -->
+        
         <ul class="navbar-nav mb-md-3">
           <li class="nav-item">
             <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html">
@@ -151,6 +151,6 @@
             </a>
           </li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </nav>

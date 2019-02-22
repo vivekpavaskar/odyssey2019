@@ -19,7 +19,7 @@
       $count = mysqli_num_rows($result);
       if($count == 1) {
          $_SESSION['email'] = $myusername;         
-         header("location: dashboard.php");
+         header("location: coordinator.php");
       }
       else {
          echo "<script>alert('Invalid Username or Password');
