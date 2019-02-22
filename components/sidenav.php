@@ -98,12 +98,13 @@
               <i class="ni ni-tv-2 text-primary"></i> Dashboard
             </a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="./examples/icons.html">
-              <i class="ni ni-planet text-blue"></i> Icons
+          <li class="nav-item">
+            <a class="nav-link" href="registereduser.php">
+              <i class="fas fa-user-check text-blue"></i> Registered Users
             </a>
           </li>
-          <li class="nav-item">
+
+          <!--<li class="nav-item">
             <a class="nav-link" href="./examples/maps.html">
               <i class="ni ni-pin-3 text-orange"></i> Maps
             </a>
