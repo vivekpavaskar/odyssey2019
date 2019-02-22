@@ -1,6 +1,3 @@
-<html>
-    <head></head>
-    <body>
 <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div class="container">
@@ -100,5 +97,3 @@
       </div>
     </nav>
   </header> 
-</body>
-</html>
