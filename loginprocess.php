@@ -20,7 +20,8 @@
       if($count == 1) {
          $_SESSION['email'] = $myusername; 
          $_SESSION['id'] = $row['id'];
-         $_SESSION['acctype'] = $row['acctype'];        
+         $_SESSION['acctype'] = $row['acctype'];
+         $_SESSION['error']="Nobody gives fuck to you so fuck off";        
          header("location: coordinator.php");
       }
       else {
