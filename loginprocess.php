@@ -12,13 +12,15 @@
          $mypassword = $_POST['password'];
       }
 
-      $sql = "SELECT id FROM users WHERE email = '$myusername' and password = '$mypassword'";
+      $sql = "SELECT id,acctype FROM users WHERE email = '$myusername' and password = '$mypassword'";
       $result = mysqli_query($db,$sql);
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
       //$active = $row['active'];      
       $count = mysqli_num_rows($result);
       if($count == 1) {
-         $_SESSION['email'] = $myusername;         
+         $_SESSION['email'] = $myusername; 
+         $_SESSION['id'] = $row['id'];
+         $_SESSION['acctype'] = $row['acctype'];        
          header("location: coordinator.php");
       }
       else {

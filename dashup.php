@@ -1,6 +1,16 @@
 <?php
 include "components/head.php";
-include "components/sidenav.php";
+ if($_SESSION['acctype']=="c")
+ {
+   include "components/sidenavc.php";
+ }
+ else if($_SESSION['acctype']=="u")
+ {
+  include "components/sidenavu.php";
+ }
+ else{
+   include "components/sidenavr.php";
+ }
 ?>
   
   <!-- Main content -->
