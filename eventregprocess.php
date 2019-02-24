@@ -8,7 +8,7 @@ if($db->connect_error)
 //$id=$_POST["id"];
 $eid=$_GET['eid'];
 echo $eid;
- $sql="INSERT into registration(uid,eid,teammember,payment)values($_SESSION['id'],$eid,'solo','notconfirm')";
+$sql="INSERT into registration(id,uid,eid,teammember,payment)values($id,$_SESSION['id'],$eid,'solo','notconfirm')";
 $res=$db->query($sql);
 // if($res->num_rows>0){
 //     echo "<script>alert('Email already Exists');
