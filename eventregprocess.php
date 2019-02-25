@@ -1,15 +1,16 @@
 <?php
 include "access.php";
 include "conn.php";
-if($db->connect_error)
-{
-    die("Connection failed : ".$db->connect_error);
-}
+// if($db->connect_error)
+// {
+//     die("Connection failed : ".$db->connect_error);
+// }
 //$id=$_POST["id"];
 $eid=$_GET['eid'];
 echo $eid;
-$sql="INSERT into registration(id,uid,eid,teammember,payment)values($id,$_SESSION['id'],$eid,'solo','notconfirm')";
-$res=$db->query($sql);
+$uid=$_SESSION['id'];
+$sql="INSERT into registration (uid,eid,teammember,payment) values ($uid,$eid,'solo','notconfirm')";
+$res=mysqli_query($db,$sql);
 // if($res->num_rows>0){
 //     echo "<script>alert('Email already Exists');
 //          window.location='reg.php';
